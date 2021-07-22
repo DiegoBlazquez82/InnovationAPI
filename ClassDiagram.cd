@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="API.Innovation.Application.Command.CreateCarCommand" BaseTypeListCollapsed="true">
+    <Position X="52.25" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Queries\CreateCarCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="API.Innovation.Settings">
+    <Position X="18.5" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Innovation.DGT.Program">
+    <Position X="54.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Innovation.DGT.Startup">
+    <Position X="38.75" Y="1.75" Width="6.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAgAAACAAAAAA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Innovation.DGT.CustomExtensionMethods" Collapsed="true">
+    <Position X="66.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAIAAAAAAAAAAAAAAAQAAAAEABAAAAAA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Innovation.Infrastructure.EntityConfigurations.CatalogCarsEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="1.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\EntityConfigurations\CatalogCarsEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="API.Innovation.Infrastructure.EntityConfigurations.CatalogInfractionEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="22" Y="1.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\EntityConfigurations\CatalogInfractionEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="API.Innovation.Infrastructure.EntityConfigurations.CatalogUsersEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\EntityConfigurations\CatalogUsersEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="API.Innovation.Infrastructure.EntityConfigurations.CatalogVehicleViolationEntityTypeConfiguration" BaseTypeListCollapsed="true">
+    <Position X="45.75" Y="1.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\EntityConfigurations\CatalogVehicleViolationEntityTypeConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="API.Innovation.Infrastructure.Models.Cars">
+    <Position X="50" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAEAAAAAAAAAAAAACAAAEAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Application\Models\Cars.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Innovation.Infrastructure.Models.Infraction">
+    <Position X="36.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAACAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\Models\Infraction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Innovation.Infrastructure.Models.Users">
+    <Position X="63.25" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAgAAAAAAEAAQAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\Models\Users.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Innovation.Infrastructure.Models.VehicleViolation">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACAAAACAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Application\Models\VehicleViolation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Innovation.Queries.UsersQueries" BaseTypeListCollapsed="true">
+    <Position X="57" Y="1.75" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\Queries\UsersQueries.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="API.Innovation.Infrastructure.DbAPIContext" Collapsed="true">
+    <Position X="68.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACACAQAAAAAAAAAAAAAAEAAAAAAAAAEAAEAgAAA=</HashCode>
+      <FileName>Application\DbAPIContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Innovation.Controller.AuthController">
+    <Position X="10" Y="5.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAAAAAA=</HashCode>
+      <FileName>Controllers\AuthController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Innovation.Controller.HomeController">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\Home.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Innovation.Controllers.CarsController">
+    <Position X="22.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAADAAAAAAAAAgCAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\CarsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Innovation.Controllers.InfractionController">
+    <Position X="29.25" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAABACAAAAAAAAAAEAAAAAAAAAAAAQAAIA=</HashCode>
+      <FileName>Controllers\InfractionController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Innovation.Controllers.QueriesDgtController">
+    <Position X="14" Y="5.75" Width="7.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAIAAAAAAAAIAAAAAAAAAFAAAAAAAA=</HashCode>
+      <FileName>Controllers\QueriesDgtController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Innovation.Controllers.UsersController">
+    <Position X="24.5" Y="5.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>IAABAAAAAAAABAAAAAAAAAAAAAAAAAAAoAAAAAQAAAA=</HashCode>
+      <FileName>Controllers\UsersController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Innovation.Controllers.VehicleViolationsController">
+    <Position X="2.75" Y="5.75" Width="6.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAABAAAAAAECAAAQQAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Controllers\VehicleViolationsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Innovation.DGT.Infrastructure.Models.AddInfractionCarModel">
+    <Position X="2.25" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAACAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Models\AddInfractionCarModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Innovation.DGT.Infrastructure.Models.HistoryUserModel">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAEAAgAAAAAAAEAAQAAAEAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Models\HistoryUserModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="API.Innovation.DGT.Infrastructure.Queries.AddPenaltyCommand" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="1.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Queries\AddPenaltyCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="API.Innovation.DGT.Infrastructure.Queries.AddPenaltyCommandHandler" BaseTypeListCollapsed="true">
+    <Position X="30" Y="1.75" Width="5.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Infrastructure\Queries\AddPenaltyCommandHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="33" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Microsoft.AspNetCore.Mvc.ControllerBase" Collapsed="true">
+    <Position X="15" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="API.Innovation.Queries.IUsersQueries" Collapsed="true">
+    <Position X="66.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application\Queries\IUsersQueries.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
